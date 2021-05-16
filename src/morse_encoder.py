@@ -1,4 +1,4 @@
-def morse():
+def morse(not_encoded_payload):
     MORSE_CODE_DICT = {
         "A": ".-",
         "B": "-...",
@@ -108,7 +108,8 @@ def morse():
 
         return decipher
 
-    payload = open('./payload.py', 'r').readlines()
+    #payload = open('./payload.py', 'r').readlines()
+    payload = not_encoded_payload
     code = []
     imports = ''
 

